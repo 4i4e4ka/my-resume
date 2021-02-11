@@ -16,36 +16,86 @@ body {
   margin: 40px auto;
 }
 
+/* main content */
+.main-content {
+  margin-top: 102px;
+  margin-left: 88px;
+  margin-bottom: 107px;
+}
+.about-me-section {
+  margin-right: 342px;
+  margin-bottom: 40px;
+}
+
 .profession {
   color: #000000;
   font-size: 14px;
   font-weight: 700;
-}
-
-.task-description {
-  color: #595959;
+  margin-bottom: 19px;
 }
 
 .my-name {
   color: #000000;
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 24px;
 }
 
 .me-description {
+  color: #595959;
+
+  min-width: 400px;
+
   font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 40px;
 }
 
-.projects-title {
-  color: #000000;
-  font-size: 22px;
+/* My projects section*/
+.projects-section {
+  margin-bottom: 50px;
+}
+
+.prejects-title {
+  margin-bottom: 8px;
   font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+.projects-list {
+  padding: 0 0 0 16px;
 }
 
 .projects-item {
-  color: #595959;
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
+.projects-text {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-left: 13px;
+}
+
+.projects-link {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.special-marks {
+  color: #000000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Work experience section */
 .experience-title {
   font-size: 22px;
 }
@@ -53,15 +103,16 @@ body {
   font-size: 16px;
 }
 
+.freelance {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: #fb6d3a;
+}
 .working-period {
   color: #a8a8a8;
   font-size: 12px;
-}
-
-.about-me-section {
-  margin-top: 102px;
-  margin-right: 342px;
-  margin-bottom: 40px;
 }
 
 .projects-section {
@@ -108,12 +159,12 @@ body {
 
 .mobile,
 .email {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 
-color: #FFFFFF;
-opacity: 0.5;
+  color: #ffffff;
+  opacity: 0.5;
 }
 
 .contact-sign {
@@ -125,7 +176,6 @@ opacity: 0.5;
 
   padding-right: 7px;
 }
-
 
 /* Tecchskills section */
 
