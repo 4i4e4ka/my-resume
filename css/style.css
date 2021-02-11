@@ -67,9 +67,6 @@ body {
 .projects-section {
 }
 
-margin-right: 257px;
-margin-bottom: 51px;
-
 .work-experience-section {
   margin-right: 217px;
   margin-bottom: 16px;
@@ -99,11 +96,70 @@ margin-bottom: 51px;
 }
 
 .contact-section {
-  margin: 51px 0 0 47px;
+  margin: 51px 147px 47px 40px;
 }
 
+.contact-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+
+.mobile,
+.email {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+
+color: #FFFFFF;
+opacity: 0.5;
+}
+
+.contact-sign {
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+
+  padding-right: 7px;
+}
+
+
+/* Tecchskills section */
+
 .techskills-section {
-  margin: 51px 0 0 47px;
+  margin: 0 209px 44px 40px;
+}
+
+.techskills-title {
+  color: #ffffff;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+
+  padding: 0;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.techskills-list {
+  margin: 0;
+  padding: 0;
+  padding-left: 17px;
+}
+
+.techskills-item {
+  color: #fb6d3a;
+}
+
+.techskills-description {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
 
 /* Soft skills section */
@@ -126,7 +182,6 @@ margin-bottom: 51px;
 
   padding: 0;
   margin: 0;
-
   margin-bottom: 8px;
 }
 
@@ -134,10 +189,9 @@ margin-bottom: 51px;
   color: #fb6d3a;
 }
 
-.skills-description {
+.softskills-description {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
-
   line-height: 1.7;
 }
