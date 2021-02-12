@@ -12,8 +12,10 @@ body {
   flex-direction: row-reverse;
 
   width: 1200px;
-  background-color: #ffff;
+  background-color: #ffffff;
   margin: 40px auto;
+
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* main content */
@@ -90,52 +92,123 @@ body {
 
 .special-marks {
   color: #000000;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.7;
 }
 
 /* Work experience section */
-.experience-title {
-  font-size: 22px;
-}
-.third-position {
-  font-size: 16px;
+
+.work-experience-section {
+  width: 525px;
 }
 
-.freelance {
+.experience-title {
+  color: #000000;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1, 22;
+
+  margin-bottom: 12px;
+}
+
+.third-position,
+.second-position,
+.first-position {
+  color: #000000;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+
+  margin-bottom: 11px;
+}
+
+.dash {
+  color: #000000;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+}
+.company-accent {
+  color: #fb6d3a;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 11px;
+}
+
+.working-period {
+  color: #a8a8a8;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.25;
+
+  margin-bottom: 8px;
+}
+
+.task-list-item {
+  color: #595959;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.task-list-third {
+  padding: 0 0 0 17px;
+  margin-bottom: 16px;
+}
+
+.task-list-second {
+  padding: 0 0 0 17px;
+  margin-bottom: 18px;
+}
+
+.task-list-first {
+  padding: 0 0 0 17px;
+  margin-bottom: 43px;
+}
+
+/* Education section */
+.education-section {
+  width: 327px;
+  margin-right: 415px;
+  margin-bottom: 107px;
+}
+
+.education-title {
+  color: #000000;
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+
+  margin-bottom: 12px;
+}
+
+.university-name {
+  color: #fb6d3a;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.25;
 
-  color: #fb6d3a;
-}
-.working-period {
-  color: #a8a8a8;
-  font-size: 12px;
+  margin-bottom: 11px;
 }
 
-.projects-section {
-}
+.qualification {
+  color: #000000;
 
-.work-experience-section {
-  margin-right: 217px;
-  margin-bottom: 16px;
-}
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
 
-.second-job {
-  margin-right: 217px;
-  margin-bottom: 20px;
-}
-
-.first-job {
-  margin-right: 217px;
-  margin-bottom: 43px;
-}
-
-.education-section {
-  margin-right: 415px;
-  margin-bottom: 107px;
+  margin-bottom: 12px;
 }
 
 /* Side-bar section */
@@ -165,6 +238,10 @@ body {
 
   color: #ffffff;
   opacity: 0.5;
+}
+
+.mobile {
+  text-decoration: none;
 }
 
 .contact-sign {
